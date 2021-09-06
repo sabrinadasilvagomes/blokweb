@@ -40,11 +40,11 @@ Voor het vak Informatie Architectuur moesten wij een website ontwerpen voor een 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepage.jpg" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/detailpagina nomad.jpg" width="375px" alt="detailpagina">
  
 </details>
 
