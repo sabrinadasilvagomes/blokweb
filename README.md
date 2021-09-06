@@ -39,11 +39,11 @@ Responsive
 Voor het vak Informatie Architectuur moesten wij een website ontwerpen voor een 1500mm festival. De eindoplevering waren Wireframes. Nu zou ik deze website willen coderen, zodat het echt werkend wordt. 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Homepage
+#### Homepage
  <img src="images/homepage.jpg" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Detailpagina
+#### Detailpagina
  <img src="images/detailpagina nomad.jpg" width="375px" alt="detailpagina">
  
 </details>
