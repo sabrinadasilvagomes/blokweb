@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Sabrina da Silva Gomes
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive
  
 </details>
 
@@ -36,7 +36,7 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Voor het vak Informatie Architectuur moesten wij een website ontwerpen voor een 1500mm festival. De eindoplevering waren Wireframes. Nu zou ik deze website willen coderen, zodat het echt werkend wordt. 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
