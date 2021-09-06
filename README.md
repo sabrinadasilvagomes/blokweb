@@ -46,6 +46,7 @@ Homepage
 #### Screenshot(s) van de tweede pagina (small screen):
 
  Detailpagina
+ 
  <img src="images/detailpagina nomad.jpg" width="375px" alt="detailpagina">
  
 </details>
