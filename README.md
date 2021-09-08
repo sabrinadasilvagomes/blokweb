@@ -47,7 +47,9 @@ Homepage
 
  Detailpagina
  
- <img src="images/detailpagina nomad.jpg" width="375px" alt="detailpagina">
+ <img src="images/detail1.jpg" width="375px" alt="detailpagina">
+ <img src="images/detail2.jpg" width="375px" alt="detailpagina">
+
  
 </details>
 
