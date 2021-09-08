@@ -36,7 +36,7 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Voor het vak Informatie Architectuur moesten wij een website ontwerpen voor een 1500mm festival. De eindoplevering waren Wireframes. Nu zou ik deze website willen coderen, zodat het echt werkend wordt. 
+Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/index.html
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
