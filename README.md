@@ -63,7 +63,7 @@ Homepage
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
+### Homepage, productpagina en hamburgermenu: 
 <img src="images/breakdownschets.png" width="500px" alt="breakdown van de hele pagina">
 
 </details>
