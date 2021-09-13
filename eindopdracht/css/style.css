@@ -1,0 +1,75 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faf9f8;
+}
+
+@font-face {
+    font-family: 'josefin';
+    src: url('../assets/JosefinSans-ExtraLight.ttf');
+    font-style: normal;
+}
+
+
+header img {
+    width: 2.5em;
+}
+
+nav ul img{
+    display: flex;
+}
+
+
+/* footer */
+
+footer section, h1, h4, p, a{
+    background-color: #e4e4e4;
+}
+
+/* shop footer */
+footer section:first-child{
+    color: crimson;
+}
+
+/* corporate info footer */
+footer section:nth-of-type(2){
+    color:green;
+}
+
+/* help */
+footer section:nth-of-type(3){
+    color:pink;
+}
+
+/* meld je nu aan + word member tekst*/
+footer section:nth-of-type(4){
+    color:yellow;
+}
+
+/* lees meer knop + pijl */
+footer section:nth-of-type(5){
+    color:green;
+}
+
+footer img a:first-child{
+    width: 0.5em;
+}
+
+/* social media iconen!!!!!!! HELP */ 
+footer section ul img{
+    width: 1em;
+}
+
+/* auteursrechten */
+footer section:nth-of-type(7){
+    color:green;
+}
+
+/* hennes maurits logo zwart!!!!!!! HELP */
+footer img:last-child{
+    width: 16em;
+}
+
+
+
