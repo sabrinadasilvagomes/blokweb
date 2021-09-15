@@ -78,17 +78,26 @@ Homepage
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+Het schrijven van de HTML code ging best goed. Dit had ik vrij snel gedaan. Wat ik niet zo slim had gedaan, was dat ik alle elementen meteen in html had geschreven. Toen ik vervolgens met CSS aan de slag ging, stond alles door elkaar heen. Hierdoor was het niet heel overzichtelijk meer. Ik had dit dus beter in delen kunnen doen. 
+
+Het schrijven van de CSS code ging in het begin ook niet heel soepel. Zo ben ik erg lang bezig geweest, om de menubalk netjes te krijgen. Toch is dit uiteindelijk wel gelukt en staat alles netjes naast elkaar. Ik ben nu bijna klaar met de mobiele versie. Als ik het scherm groter maak, staat alles niet goed. Hier moet ik dus nog wel naar kijken. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1                                                                  |           
+| ---                                                                        |                      
+| Het aanspreken van de elementen gaat niet helemaal goed                    |                
+| Moet alles met position: absolute gepositioneerd worden                    | 
+| Hoe krijg je de backgound-color als gehele breedte                         |      
+| De images lijken niet in het midden te komen staan                         | 
+| Hoe kan ik de footer veranderen bij groter scherm (andere elementen)       |    
+| Hoe te starten bij maken van hamburger menu                                |  
+| Mag een figure+figcaption in een section komen te staan                    |                      
+
+
 
 
 ### Verslag van meeting
