@@ -103,10 +103,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de enige was, kon ik daarom ook al heel veel tijdens de meeting aanpassen. Hierdoor zag dus direct verbetering in mijn code. Ook heb ik weer een hoop nieuwe dingen geleerd. Hier heb ik ook aantekeningen van gemaakt. (onderdelen die voor deze website misschien niet helemaal van toepassing zijn, maar wel leuk om te weten) 
+ 
+ Alle vragen zijn beantwoord en ik weet nu hoe ik weer verder kan!
 
 </details>
 
