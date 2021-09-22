@@ -29,6 +29,7 @@
 /* VLAK BEIGE: #f1ebdf */
 /* LETTERTYPE QUOTE: #e50211*/
 /* LETTERTYPE GEWOON: #FFFFFF */
+/* BACKGROUNDLEESMEER: #000000 */
 
 
 
@@ -45,6 +46,7 @@
     --QuotesKleur: #e50211;
     --TekstKleur: #000000;
     --HoverKleur: #ffffff;
+    --BackgroundLeesMeer: white;
 }
 
 
@@ -138,6 +140,7 @@ main {
 }
 
 
+
 /* ********************* */
 /* Images homepage */
 /* ********************* */
@@ -146,16 +149,15 @@ main {
 /* ********************* */
 /* Afbeelding 1 */
 /* ********************* */
-
+/* 
 main img:nth-of-type(1){
-    width: 34em;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    width: 34em;
     max-width: 60em;
     padding-bottom: 1.5em;
     padding-top: 1.5em;
-}
+} */
 
 
 
@@ -163,7 +165,7 @@ main img:nth-of-type(1){
 /* Afbeelding 2 */
 /* ********************* */
 
-main img:nth-of-type(2){
+main img:nth-of-type(3){
     width: 34em;
     display: flex;
     justify-content: center;
@@ -233,7 +235,6 @@ main section:nth-of-type(1) {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    gap:1em;
 }
 
 main section:nth-of-type(1) h1 {
@@ -248,21 +249,22 @@ main section:nth-of-type(1) h2 {
 }
 
 main section:nth-of-type(1) a{
-    padding:0.3em;
     color:var(--TekstKleur);
     text-decoration: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    font-family: 'josefinbold';
+    background-color:var(--BackgroundLeesMeer);
 }
 
 main section:nth-of-type(1) a::after {
     content: "→";
+    margin: 0.2em;
 }
 
 main section:nth-of-type(1) a:hover{
     background-color:var(--HoverKleur);
-    text-decoration: underline;
-    text-decoration-style:wavy ;
-    text-decoration-color: cornflowerblue;
-    text-decoration-thickness: 3px;
 }
 
 
@@ -270,16 +272,60 @@ main section:nth-of-type(1) a:hover{
 
 
 /* ********************* */
-/* Section 2 (aanbevolen = carrousel)*/
+/* Section 2 (afbeelding 1)*/
 /* ********************* */
 
-main section:nth-of-type(2) h3 {
+
+section:nth-of-type(2) img:nth-of-type(1) {
+    display: block; 
+ }
+
+section:nth-of-type(2) img:nth-of-type(2) {
+     display: none; 
+ }
+
+
+@media (min-width:40em) { 
+     section:nth-of-type(2) img:nth-of-type(1) {
+        display: none; 
+     }
+
+    section:nth-of-type(2) img:nth-of-type(2) {
+         display: block; 
+     } 
+}
+
+/* main section:nth-last-of-type(2) h1 {
+
+}
+
+main section:nth-last-of-type(2) h2 {
+    
+} */
+
+/* main section:nth-last-of-type(2) img {
+    display: grid;
+    justify-content: center;
+    width: 10em;
+    max-width: 60em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+} */
+
+
+
+
+/* ********************* */
+/* Section 3 (aanbevolen = carrousel)*/
+/* ********************* */
+
+main section:nth-of-type(3) h3 {
     text-align: left;
     font-family: 'josefinbold';
     font-size: 1em;
 }
 
-main section:nth-of-type(2) ul {
+main section:nth-of-type(3) ul {
     display: flex;
     gap:4em;
 
@@ -289,7 +335,7 @@ main section:nth-of-type(2) ul {
     overflow: auto;
 }
 
-main section:nth-of-type(2) a{
+main section:nth-of-type(3) a{
     display: flex;
     flex-direction: column-reverse;
     gap:0.5em;
@@ -297,7 +343,7 @@ main section:nth-of-type(2) a{
     text-decoration: none;
 }
 
-main section:nth-of-type(2) h4 {
+main section:nth-of-type(3) h4 {
     margin:0;
     padding: 0;
     font-size: 0.8em;
@@ -309,12 +355,12 @@ main section:nth-of-type(2) h4 {
     justify-content: center;
 }
 
-main section:nth-of-type(2) h4 em {
+main section:nth-of-type(3) h4 em {
     font-family: 'josefinbold';
     font-style: normal;
 }
 
-main section:nth-of-type(2) img {
+main section:nth-of-type(3) img {
     width: 5em;
 }
 
@@ -323,39 +369,7 @@ main section:nth-of-type(2) img {
 
 
 /* ********************* */
-/* section 3 (H&M x Elle banner) */
-/* ********************* */
-
-main section:nth-of-type(3) {
-    background-color:var(--TekstVlakken);
-    padding:2em 2em ;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-main section:nth-of-type(3) h1 {
-    font-size: 1.5em;
-    color:var(--QuotesKleur);
-    font-family: 'josefinbold';
-    max-width: 60em;
-
-}
-
-main section:nth-of-type(3) h2 {
-    font-size: 0.8em;
-    max-width: 60em;
-}
-
-
-
-
-
-/* ********************* */
-/* section 4 (Win als member... kind...) */
+/* section 4 (H&M x Elle banner) */
 /* ********************* */
 
 main section:nth-of-type(4) {
@@ -368,11 +382,13 @@ main section:nth-of-type(4) {
     text-align: center;
     flex-direction: column;
 }
+
 main section:nth-of-type(4) h1 {
     font-size: 1.5em;
-    max-width: 60em;
     color:var(--QuotesKleur);
     font-family: 'josefinbold';
+    max-width: 60em;
+
 }
 
 main section:nth-of-type(4) h2 {
@@ -385,10 +401,40 @@ main section:nth-of-type(4) h2 {
 
 
 /* ********************* */
-/* section 5 (hallo, recycle kleding...) */
+/* section 5 (Win als member... kind...) */
 /* ********************* */
 
 main section:nth-of-type(5) {
+    background-color:var(--TekstVlakken);
+    padding:2em 2em ;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+main section:nth-of-type(5) h1 {
+    font-size: 1.5em;
+    max-width: 60em;
+    color:var(--QuotesKleur);
+    font-family: 'josefinbold';
+}
+
+main section:nth-of-type(5) h2 {
+    font-size: 0.8em;
+    max-width: 60em;
+}
+
+
+
+
+
+/* ********************* */
+/* section 6 (hallo, recycle kleding...) */
+/* ********************* */
+
+main section:nth-of-type(6) {
     background-color:var(--TekstVlakken);
     padding:1em 2em;
     margin: 1em;
@@ -400,18 +446,18 @@ main section:nth-of-type(5) {
     flex-direction: column;
 }
 
-main section:nth-of-type(5) h1 {
+main section:nth-of-type(6) h1 {
     font-size: 1.5em;
     font-family: 'josefinbold';
     max-width: 60em;
     color:var(--QuotesKleur);
 }
 
-main section:nth-of-type(5) img {
+main section:nth-of-type(6) img {
     width: 11em;
 }
 
-main section:nth-of-type(5) h3 {
+main section:nth-of-type(6) h3 {
     font-size: 0.8em;
 }
 
@@ -420,10 +466,10 @@ main section:nth-of-type(5) h3 {
 
 
 /* ********************* */
-/* section 6 (magazine/world inspiration/read/3ximages) */
+/* section 7 (magazine/world inspiration/read/3ximages) */
 /* ********************* */
 
-main section:nth-of-type(6) {
+main section:nth-of-type(7) {
     background-color:var(--TekstVlakken);
     padding:1em 2em ;
     margin: 1em;
@@ -435,19 +481,19 @@ main section:nth-of-type(6) {
     flex-direction: column;
 }
 
-main section:nth-of-type(6) h1{
+main section:nth-of-type(7) h1{
     text-transform: uppercase;
     font-family: 'josefinbold';
     font-size: 1.5em;
     padding: 2em 1em 1.5em 1em;
 }
 
-main section:nth-of-type(6) h2{
+main section:nth-of-type(7) h2{
     font-size: 0.8em;
     text-transform: uppercase;
 }
 
-main section:nth-of-type(6) h3{
+main section:nth-of-type(7) h3{
     padding: 1.5em 1em 1em 1em;
     text-transform: uppercase;
     color:var(--TekstKleur);
