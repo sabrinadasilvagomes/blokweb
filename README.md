@@ -119,17 +119,18 @@ Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de e
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Deze week ging iets moeilijker dan de week hiervoor. Ik wist hoe ik verder moest en heb dat allemaal kunnen coderen. Hierna kwam het moeilijke deel: namelijk verder coderen, tot alles goed is. Hier liep ik toch een aantal keer vast en was ik best lang bezig om dit te kunnen verbeteren. Uiteindelijk heb ik weer een aantal dingen kunnen toevoegen en gaat de eerste pagina, er steeds beter uit zien.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1      | 
+| ---            |
+| Hoe kan ik het beste starten, met het maken van een werkend hamburgermenu.                             | 
+| Hoe kan mijn menubalk veranderen van menu icoontjes, naar half tekst/half icoon naar volledige teksten?| 
+| Op mobiel scherm, wordt het gehele scherm ingenomen. Laptop veel meer witruimte. Hoe begin ik?         | 
+| Hoe kan ik het beste afbeeldingen in het midden plaatsen? Lijkt niet te werken bij mij.                | 
 
 
 ### Verslag van meeting
