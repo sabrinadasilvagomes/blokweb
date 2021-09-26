@@ -123,6 +123,7 @@ header nav ul img{
 
 
 
+
 /* <!-- *********************************************************** -->
 <!-- MAIN HOMEPAGE -->
 <!-- *********************************************************** -->  */
@@ -132,6 +133,12 @@ main {
     background-color:var(--AchtergrondKleur);
 }
 
+@media (min-width:70em) {
+    main{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
 
 
 
@@ -173,6 +180,33 @@ main:nth-of-type(1) {
     padding-bottom: 1.5em;
 }
 
+
+/* standaard levering tekst 1x */
+main:nth-of-type(1) h1{
+    font-size: 0.8em;
+    overflow: visible;
+}
+
+@media (min-width:50em) {
+    main:nth-of-type(1) h1{
+        visibility: hidden;
+    }
+}
+
+
+/* standaard levering tekst 3x */
+main figcaption:nth-of-type(1) h2 {
+    color:var(--TekstKleur);
+    font-size: 0.8em;
+
+    overflow:visible;
+}
+
+@media (max-width:50em) {
+    main figcaption:nth-of-type(1) h2{
+        visibility: hidden;
+    }
+}
 
 
 
@@ -596,6 +630,12 @@ main section:nth-of-type(10) {
     flex-direction: column;
 }
 
+/* @media (min-width:70em) {
+    main section:nth-of-type(10){
+       
+    }
+} */
+
 main section:nth-of-type(10) h1{
     text-transform: uppercase;
     font-family: 'josefinbold';
@@ -630,7 +670,6 @@ main article h4::after {
     content: "→";
     margin: 0.2em;
 }
-
 
 
 /* ********************* */
@@ -836,8 +875,7 @@ main figure figcaption:nth-of-type(1) {
     grid-column: 3;
 
     padding: 1em;
-
-    overflow: hidden;
+    overflow: visible;
 }
 
 main figure figcaption:nth-of-type(1) a {
@@ -845,18 +883,21 @@ main figure figcaption:nth-of-type(1) a {
     color:var(--TekstKleur);
     
     grid-row-start: 1;    
-    
-    overflow: hidden;
+    overflow:visible;
 }
 
 main figure figcaption:nth-of-type(1) h2::after {
     content: "+";
     font-size: 1.5em;
     font-family: 'josefin';
+    overflow: visible;
 }
 
-/* @media (min-width:60em) {
-} */
+@media (max-width:50em) {
+    main figure figcaption:nth-of-type(1) a, h2::after{
+        visibility: hidden;
+    }
+}
 
 
 
@@ -920,6 +961,16 @@ main figure:nth-of-type(3) img {
     width: 100%;
 }
 
+@media (min-width:50em) {
+    main figure:nth-of-type(3) img{
+       width: 90%;
+
+       position: relative;
+       left:5%;
+       right: 5%;
+    }
+}
+
 
 
 
@@ -953,6 +1004,12 @@ main p {
     padding: 0.7em 1.5em ;
     font-size: 0.9em;
     line-height: 1.2em;
+}
+
+@media (min-width:50em) {
+    main p{
+        padding:1em 7em;
+    }
 }
 
 
@@ -1008,7 +1065,7 @@ main p:nth-of-type(12) {
 
 
 /* ********************* */
-/* footer */
+/* footer SMALL DEVICE*/
 /* ********************* */
 
 footer  {
