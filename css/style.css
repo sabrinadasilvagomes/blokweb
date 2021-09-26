@@ -18,21 +18,17 @@
 
 
 
-
-
 /* ********************* */
 /* KLEUREN */
 /* ********************* */
 
 /* ACHTERGROND: #faf9f8 */
 /* VLAK GRIJS: #e4e4e4 */
+/* VLAK BRUIN: #C4BDB7 */
 /* VLAK BEIGE: #f1ebdf */
 /* LETTERTYPE QUOTE: #e50211*/
 /* LETTERTYPE GEWOON: #FFFFFF */
 /* BACKGROUNDLEESMEER: #000000 */
-
-
-
 
 
 /* ********************* */
@@ -46,7 +42,7 @@
     --QuotesKleur: #e50211;
     --TekstKleur: #000000;
     --HoverKleur: #ffffff;
-    --BackgroundLeesMeer: white;
+    --TekstVlakDonker: #c4bdb7;
 }
 
 
@@ -83,7 +79,7 @@ header {
 
 /* logo */
 header:first-of-type img{
-    height: 2em;
+    height: 1.3em;
     margin: 0.5em;
 }
 
@@ -97,7 +93,7 @@ header button {
 }
 
 header button img {
-    width: 3em;
+    width: 2em;
 }
 
 
@@ -117,7 +113,6 @@ header nav ul {
     list-style: none;
     margin:0;
     padding: 0;
-    gap:0.2em;
 }
 
 header nav ul img{
@@ -128,241 +123,192 @@ header nav ul img{
 
 
 
-/* ********************* */
-/* Main  */
-/* ********************* */
+/* <!-- *********************************************************** -->
+<!-- MAIN HOMEPAGE -->
+<!-- *********************************************************** -->  */
 
 main {
-    padding: 6em 2em 2em;
-    min-width: 6em;
     flex-grow: 1;
     background-color:var(--AchtergrondKleur);
 }
 
 
 
-/* ********************* */
-/* Images homepage */
-/* ********************* */
-
-
-/* ********************* */
-/* Afbeelding 1 */
-/* ********************* */
-/* 
-main img:nth-of-type(1){
-    display: grid;
-    justify-content: center;
-    width: 34em;
-    max-width: 60em;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
-} */
 
 
 
 /* ********************* */
-/* Afbeelding 2 */
+/* H1 + H2 + H3 + H5*/
 /* ********************* */
 
-main img:nth-of-type(3){
-    width: 34em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 60em;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
-}
-
-
-
-/* ********************* */
-/* Afbeelding 3 */
-/* ********************* */
-
-main img:nth-of-type(3){
-    width: 34em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 60em;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
-}
-
-
-
-/* ********************* */
-/* H1 + H2 + H3 + H4 */
-/* ********************* */
-
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-family: 'josefin';
     font-size: 1.2em;
     text-align: center;
 }
 
 h1 {
-    font-size: 0.9em;
+    font-size: 0.7em;
     padding: 0.5em;
 }
 
-/* ********************* */
-/* auteursrechten */
-/* ********************* */
+h5{
+    text-transform: uppercase;
+    font-size: 1.2em;
 
-h4{
-    color:var(--TekstKleur);
-    font-family: 'josefin';
-    text-align: center;
-    padding: 1em 6em;
+    padding-top: 1em;
 }
 
 
 
 
 
+
 /* ********************* */
-/* Section 1 (hey fashion lover)*/
+/* Standaard verzending tekst*/
+/* ********************* */
+
+main:nth-of-type(1) {
+    padding-top: 5.5em;
+    padding-bottom: 1.5em;
+}
+
+
+
+
+
+
+/* ********************* */
+/* Section 1 (Afbeelding 1 + Hello Member H1)*/
 /* ********************* */
 
 main section:nth-of-type(1) {
-    background-color:var(--HoofdVlak);
+    position: relative;
     padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+    padding-bottom: 0;
 }
 
-main section:nth-of-type(1) h1 {
-    font-size: 1.5em;
-    max-width: 60em;
+main section:nth-of-type(1) h1 { 
+    color:var(--QuotesKleur);
     font-family: 'josefinbold';
+    font-size: 2em;
+    line-height: 4em;
+
+    position: absolute;
+    left:40%;
+    right: 40%;
 }
 
-main section:nth-of-type(1) h2 {
-    font-size: 0.8em;
-    max-width: 60em;
+main section:nth-of-type(1) img {
+    width:100%;
 }
 
-main section:nth-of-type(1) a{
-    color:var(--TekstKleur);
-    text-decoration: none;
-    padding: 0.5em;
-    margin-top: 0.5em;
-    text-transform: uppercase;
-    font-family: 'josefinbold';
-    background-color:var(--BackgroundLeesMeer);
-}
-
-main section:nth-of-type(1) a::after {
-    content: "→";
-    margin: 0.2em;
-}
-
-main section:nth-of-type(1) a:hover{
-    background-color:var(--HoverKleur);
-}
 
 
 
 
 
 /* ********************* */
-/* Section 2 (afbeelding 1)*/
+/* section 2 (Eerder toegang ELLE, H1, IMG, H3 ) */
 /* ********************* */
 
+main section:nth-of-type(2) {
+    background-color:var(--TekstVlakken);
+    padding:1em 2em;
+    margin: 1em;
+    margin-top: 0;
 
-section:nth-of-type(2) img:nth-of-type(1) {
-    display: block; 
- }
-
-section:nth-of-type(2) img:nth-of-type(2) {
-     display: none; 
- }
-
-
-@media (min-width:40em) { 
-     section:nth-of-type(2) img:nth-of-type(1) {
-        display: none; 
-     }
-
-    section:nth-of-type(2) img:nth-of-type(2) {
-         display: block; 
-     } 
-}
-
-/* main section:nth-last-of-type(2) h1 {
-
-}
-
-main section:nth-last-of-type(2) h2 {
-    
-} */
-
-/* main section:nth-last-of-type(2) img {
     display: grid;
-    justify-content: center;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+main section:nth-of-type(2) h1 {
+    font-size: 1.45em;
+    font-family: 'josefinbold';
+    color:var(--QuotesKleur);
+    padding:6em 0em 6em 0em;
+
+    max-width: 60em;
+    grid-row-start: 2;
+}
+
+main section:nth-of-type(2) img {
     width: 10em;
-    max-width: 60em;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
-} */
+    grid-row-start: 1;
 
-
-
-
-/* ********************* */
-/* Section 3 (aanbevolen = carrousel)*/
-/* ********************* */
-
-main section:nth-of-type(3) h3 {
-    text-align: left;
-    font-family: 'josefinbold';
-    font-size: 1em;
+    position: absolute;
+    left: 34%;
+    right: 34%;
 }
 
-main section:nth-of-type(3) ul {
-    display: flex;
-    gap:4em;
-
-    list-style: none;
-    margin:0;
-    padding:1em 0;
-    overflow: auto;
-}
-
-main section:nth-of-type(3) a{
-    display: flex;
-    flex-direction: column-reverse;
-    gap:0.5em;
+main section:nth-of-type(2) h3 {
+    font-size: 0.55em;
     color:var(--TekstKleur);
-    text-decoration: none;
-}
-
-main section:nth-of-type(3) h4 {
-    margin:0;
-    padding: 0;
-    font-size: 0.8em;
-
-    /* tekst onder elkaar plaatsen!!! */
-    display: grid;
-    grid-template-columns: min-content;
-    text-align: center;
-    justify-content: center;
-}
-
-main section:nth-of-type(3) h4 em {
     font-family: 'josefinbold';
-    font-style: normal;
+
+    grid-row-start: 3;
+}
+
+
+
+
+
+
+/* ********************* */
+/* Section 3 (Layer up H3, H2, IMG)*/
+/* ********************* */
+main section:nth-of-type(3) {
+    position: relative;
+    padding: 1em;
+    padding-bottom: 0;
+
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 main section:nth-of-type(3) img {
-    width: 5em;
+    width:100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
+/* new autumn arrivals */
+main section:nth-of-type(3) h2 { 
+    color:var(--HoverKleur);
+    font-family: 'josefinbold';
+    font-size: 1.2em;
+
+    position: absolute;
+    bottom: 8%;
+    left: 30%;
+    right: 30%;
+}
+
+/* layer up */
+main section:nth-of-type(3) h3 { 
+    color:var(--HoverKleur);
+    font-size:0.8em;
+
+    position: absolute;
+    bottom: 5em;
+    left: 30%;
+    right: 30%;
+}
+
+/* alle stijlen op een plek */
+main section:nth-of-type(3) h4 { 
+    color:var(--HoverKleur);
+    font-size:0.8em;
+
+    position: absolute;
+    bottom: 0.5em;
+    left: 15%; 
+    right: 15%;   
+}
+
 
 
 
@@ -373,9 +319,11 @@ main section:nth-of-type(3) img {
 /* ********************* */
 
 main section:nth-of-type(4) {
-    background-color:var(--TekstVlakken);
-    padding:2em 2em ;
+    background-color:var(--TekstVlakDonker);
+    
+    padding:0.8em 0.8em ;
     margin: 1em;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,61 +332,98 @@ main section:nth-of-type(4) {
 }
 
 main section:nth-of-type(4) h1 {
-    font-size: 1.5em;
-    color:var(--QuotesKleur);
+    font-size: 1.2em;
+    color:var(--HoverKleur);
     font-family: 'josefinbold';
-    max-width: 60em;
+
+    max-width: 20em;
 
 }
 
 main section:nth-of-type(4) h2 {
-    font-size: 0.8em;
-    max-width: 60em;
+    font-size: 0.7em;
+    color:var(--HoverKleur);
+
+    max-width: 40em;
 }
 
 
 
 
 
+
 /* ********************* */
-/* section 5 (Win als member... kind...) */
+/* Section 5 (aanbevolen = carrousel)*/
 /* ********************* */
 
 main section:nth-of-type(5) {
-    background-color:var(--TekstVlakken);
-    padding:2em 2em ;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
-main section:nth-of-type(5) h1 {
-    font-size: 1.5em;
-    max-width: 60em;
-    color:var(--QuotesKleur);
-    font-family: 'josefinbold';
+    padding: 2em;
 }
 
-main section:nth-of-type(5) h2 {
-    font-size: 0.8em;
-    max-width: 60em;
+main section:nth-of-type(5) h3 {
+    text-align: left;
+    font-family: 'josefinbold';
+    font-size: 1em;
 }
+
+main section:nth-of-type(5) ul {
+    list-style: none;
+
+    display: flex;
+    gap:3em;
+
+    margin:0;
+    padding:1em 0;
+    overflow: auto;
+}
+
+main section:nth-of-type(5) a{
+    color:var(--TekstKleur);
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    gap:0.5em;
+}
+
+main section:nth-of-type(5) h4 {
+    font-size: 0.8em;
+    
+    margin:0;
+    padding: 0;
+
+    /* tekst onder elkaar plaatsen!!! */
+    display: grid;
+    grid-template-columns: min-content;
+
+    text-align: center;
+    justify-content: center;
+}
+
+main section:nth-of-type(5) h4 em {
+    font-family: 'josefinbold';
+    font-style: normal;
+}
+
+main section:nth-of-type(5) img {
+    width: 4em;
+}
+
 
 
 
 
 
 /* ********************* */
-/* section 6 (hallo, recycle kleding...) */
+/* Section 6 (hey fashion lover)*/
 /* ********************* */
 
 main section:nth-of-type(6) {
-    background-color:var(--TekstVlakken);
-    padding:1em 2em;
+    background-color:var(--HoofdVlak);
+
+    padding:1em 1em;
     margin: 1em;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -447,33 +432,163 @@ main section:nth-of-type(6) {
 }
 
 main section:nth-of-type(6) h1 {
-    font-size: 1.5em;
+    font-size: 1em;
+    color:var(--TekstKleur);
     font-family: 'josefinbold';
+
     max-width: 60em;
-    color:var(--QuotesKleur);
+
 }
 
-main section:nth-of-type(6) img {
-    width: 11em;
+main section:nth-of-type(6) h2 {
+    font-size: 0.6em;
+    color:var(--TekstKleur);
+
+    max-width: 40em;
 }
 
-main section:nth-of-type(6) h3 {
-    font-size: 0.8em;
-}
 
 
 
 
 
 /* ********************* */
-/* section 7 (magazine/world inspiration/read/3ximages) */
+/* Section 7 (Get cosy for H2, H3, IMG)*/
 /* ********************* */
 
 main section:nth-of-type(7) {
+    position: relative;
+    padding: 1em;
+    padding-bottom: 0;
+
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+main section:nth-of-type(7) img {
+    width:100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* get cosy for fall */
+main section:nth-of-type(7) h2 { 
+    color:var(--HoverKleur);
+    font-family: 'josefinbold';
+    font-size: 1em;
+
+    position: absolute;
+    bottom: 7%;
+    left: 30%;
+    right: 30%;
+}
+
+/* het is tijd... */
+main section:nth-of-type(7) h3 { 
+    color:var(--HoverKleur);
+    font-size:0.8em;
+
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    right: 10%;
+}
+
+
+
+
+
+
+/* ********************* */
+/* section 8 (Win als member... kind...) */
+/* ********************* */
+
+main section:nth-of-type(8) {
+    background-color:var(--TekstVlakken);
+    padding:1em ;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+main section:nth-of-type(8) h1 {
+    font-size: 1.2em;
+    max-width: 90%;
+    color:var(--QuotesKleur);
+    font-family: 'josefinbold';
+}
+
+main section:nth-of-type(8) h2 {
+    font-size: 0.7em;
+    max-width: 60em;
+}
+
+
+
+
+
+
+/* ********************* */
+/* section 9 (Wist je dat H2, H3, IMG ) */
+/* ********************* */
+
+main section:nth-of-type(9) {
+    position: relative;
+    padding: 1em;
+    padding-bottom: 0;
+
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+main section:nth-of-type(9) img {
+    width:100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:nth-of-type(9) h2 { 
+    color:var(--HoverKleur);
+    font-family: 'josefinbold';
+    font-size: 1em;
+
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    right: 30%;    
+
+}
+
+main section:nth-of-type(9) h3 { 
+    color:var(--HoverKleur);
+    font-size:0.8em;
+
+    position: absolute;
+    bottom: 3%;
+    left: 8%;
+    right: 8%;
+}
+
+
+
+
+
+
+/* ********************* */
+/* section 10 (magazine/world inspiration/read/3ximages) */
+/* ********************* */
+
+main section:nth-of-type(10) {
     background-color:var(--TekstVlakken);
     padding:1em 2em ;
-    margin: 1em;
-    
+    margin-top: 1.5em;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,25 +596,411 @@ main section:nth-of-type(7) {
     flex-direction: column;
 }
 
-main section:nth-of-type(7) h1{
+main section:nth-of-type(10) h1{
     text-transform: uppercase;
     font-family: 'josefinbold';
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 2em 1em 1.5em 1em;
 }
 
-main section:nth-of-type(7) h2{
-    font-size: 0.8em;
+main section:nth-of-type(10) h2{
+    font-size: 0.6em;
     text-transform: uppercase;
 }
 
-main section:nth-of-type(7) h3{
-    padding: 1.5em 1em 1em 1em;
+main section:nth-of-type(10) h3{
+    padding: 1em 1em 3em 1em;
+
     text-transform: uppercase;
     color:var(--TekstKleur);
     font-family: 'josefinbold';
-    font-size: 1em;
+    font-size: 0.6em;
 }
+
+
+
+
+
+
+/* ********************* */
+/* section 10 (ARTICLES) */
+/* ********************* */
+
+main article h4::after {
+    content: "→";
+    margin: 0.2em;
+}
+
+
+
+/* ********************* */
+/* section 10 (ARTICLE 1) */
+/* ********************* */
+
+main article:nth-of-type(1) {
+    background-color:var(--HoverKleur);
+
+    position: relative;
+    padding-bottom: 10em;
+}
+
+main article:nth-of-type(1) img {
+    width:100%;
+}
+
+/* Inside h&m */
+main article:nth-of-type(1) h2 { 
+    font-size: 0.7em;
+
+    position: absolute;
+    bottom: 30%;
+    left:30%;
+    right: 30%;}
+
+/* Naam artikel */
+main article:nth-of-type(1) h3 { 
+    font-size:0.8em;
+    text-transform: capitalize;
+
+    position: absolute;
+    bottom: 15%;
+    left:18%;
+    right: 18%;
+}
+
+/* Read the story tekst */
+main article:nth-of-type(1) h4 { 
+    font-size:0.7em;
+    text-transform: capitalize;
+    font-family: 'josefinbold';
+
+    position: absolute;
+    bottom: 2%;
+    left:15%;
+    right: 15%;
+}
+
+
+
+/* ********************* */
+/* section 10 (ARTICLE 2) */
+/* ********************* */
+
+main article:nth-of-type(2) {
+    background-color:var(--HoverKleur);
+    
+    position: relative;
+    margin-top: 2.5em;
+    padding-bottom: 10em;
+
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+main article:nth-of-type(2) img {
+    width:100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inside h&m */
+main article:nth-of-type(2) h2 { 
+    font-size: 0.7em;
+
+    position: absolute;
+    bottom: 30%;
+    left:30%;
+    right: 30%;
+}
+
+/* Naam artikel */
+main article:nth-of-type(2) h3 { 
+    font-size:0.8em;
+    text-transform: capitalize;
+
+    position: absolute;
+    bottom: 16%;
+    left:18%;
+    right: 18%;
+}
+
+/* Read the story tekst */
+main article:nth-of-type(2) h4 { 
+    font-size:0.7em;
+    text-transform: capitalize;
+    font-family: 'josefinbold';
+
+    position: absolute;
+    bottom: 2%;
+    left:15%;
+    right: 15%;
+}
+
+
+
+/* ********************* */
+/* section 10 (ARTICLE 3) */
+/* ********************* */
+
+main article:nth-of-type(3) {
+    background-color:var(--HoverKleur);
+
+    position: relative;
+    margin-top: 2.5em;
+    padding-bottom: 10em;
+
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+main article:nth-of-type(3) img {
+    width:100%;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inside h&m */
+main article:nth-of-type(3) h2 { 
+    font-size: 0.7em;
+
+    position: absolute;
+    bottom: 30%;
+    left:30%;
+    right: 30%;
+}
+
+/* Naam artikel */
+main article:nth-of-type(3) h3 { 
+    font-size:0.7em;
+    text-transform: capitalize;
+
+    position: absolute;
+    bottom: 17%;
+    left:3%;
+    right: 3%;
+}
+
+/* Read the story tekst */
+main article:nth-of-type(3) h4 { 
+    font-size:0.7em;
+    text-transform: capitalize;
+    font-family: 'josefinbold';
+
+    position: absolute;
+    bottom: 2%;
+    left:15%;
+    right: 15%;
+}
+
+
+
+
+
+
+
+/* <!-- *********************************************************** -->
+<!-- MAIN BLOG PAGE -->
+<!-- *********************************************************** -->  */
+
+
+/* ********************* */
+/* Figure 1 (Magazine h1 + foto) */
+/* ********************* */
+
+main figure:nth-of-type(1) {
+    background-color:var(--TekstVlakken);
+    padding: 0em 1em 5em 1em;
+}
+
+main figure:nth-of-type(1) h1{
+    font-family: 'josefinbold';
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+main figure:nth-of-type(1) img{
+    width: 100%;
+}
+
+
+/* ********************* */
+/* MEDIUM SIZE DEVICE */
+/* ********************* */
+
+main figure figcaption:nth-of-type(1) {
+    display: grid;
+    grid-column: 3;
+
+    padding: 1em;
+
+    overflow: hidden;
+}
+
+main figure figcaption:nth-of-type(1) a {
+    text-decoration: none;
+    color:var(--TekstKleur);
+    
+    grid-row-start: 1;    
+    
+    overflow: hidden;
+}
+
+main figure figcaption:nth-of-type(1) h2::after {
+    content: "+";
+    font-size: 1.5em;
+    font-family: 'josefin';
+}
+
+/* @media (min-width:60em) {
+} */
+
+
+
+
+
+/* ********************* */
+/* Figure 2 (h2, h1) */
+/* ********************* */
+
+main figure:nth-of-type(2) {
+    background-color:var(--HoverKleur);
+
+    position: relative;    
+    padding: 1.3em;
+    margin: -2em 1em 2em 1em;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+main figure:nth-of-type(2) h1 {
+    font-family: 'josefinbold';
+    text-transform: uppercase;
+    font-size: 0.6em;
+
+    grid-row-start: 1;
+}
+
+main figure:nth-of-type(2) h2 {
+    font-family: 'josefinbold';
+    font-size: 1.2em;
+
+    padding: 0.4em;
+    grid-row-start: 2;
+}
+
+main figure:nth-of-type(2) h3 {
+    font-size: 0.8em;
+
+    grid-row-start: 3;
+
+}
+
+
+
+
+
+
+
+/* ********************* */
+/* Figure 3 (img) */
+/* ********************* */
+
+main figure:nth-of-type(3) {
+    padding: 1em;
+}
+
+main figure:nth-of-type(3) img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* ********************* */
+/* Figure 4 (share - h1, social icons) */
+/* ********************* */
+main figure:nth-of-type(4) {
+    display: flex;
+    justify-content: center;
+    gap:1em;
+    padding: 1.2em;
+}
+
+
+main figure:nth-of-type(4) img {
+    width: 1.3em;
+}
+
+
+
+
+
+/* ********************* */
+/* PARAGRAPHS */
+/* ********************* */
+
+main p {
+    font-family: 'josefin';
+    padding: 0.7em 1.5em ;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+
+
+
+/* ********************* */
+/* PARAGRAPH 1 (written by...) */
+/* ********************* */
+
+main p:nth-of-type(1) {
+    text-align: center;
+    padding-top: 2em;
+}
+
+
+
+
+
+
+/* ********************* */
+/* PARAGRAPH 8 (so, one of the...) */
+/* ********************* */
+
+main p:nth-of-type(8) {
+    text-transform: uppercase;
+    font-family: 'josefinbold';
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+/* ********************* */
+/* PARAGRAPH 12 (the collection launches...) */
+/* ********************* */
+
+main p:nth-of-type(12) {
+    font-style: oblique;
+}
+
+
+
+
+
+
+
 
 
 
@@ -516,13 +1017,22 @@ footer  {
 
 
 
+
+
+
 /* ********************* */
 /* shop footer */
 /* ********************* */
 
-footer section:first-child{
+footer section:first-child h1 {
+    font-family: 'josefinbold';
+}
+
+footer section:first-child a{
     color:var(--TekstKleur);
     text-transform: uppercase;
+    text-decoration: none;
+
     padding-top: 2em;
     padding-left:1.5em;
 
@@ -531,15 +1041,33 @@ footer section:first-child{
     align-items: flex-start;
 }
 
+footer section:nth-of-type(1) h1::after {
+    content: "+";
+    font-size: 1.5em;
+    font-family: 'josefin';
+
+    position: absolute;
+    right: 5%;
+}
+
+
+
+
 
 
 /* ********************* */
 /* corporate info footer */
 /* ********************* */
 
-footer section:nth-of-type(2){
+footer section:nth-of-type(2) h1 {
+    font-family: 'josefinbold';
+}
+
+footer section:nth-of-type(2) a{
     color:var(--TekstKleur);
     text-transform: uppercase;
+    text-decoration: none;
+
     padding-left: 1.5em;
     padding-top: 2em;
 
@@ -547,6 +1075,18 @@ footer section:nth-of-type(2){
     justify-content: start;
     align-items: flex-start;
 }
+
+footer section:nth-of-type(2) h1::after {
+    content: "+";
+    font-size: 1.5em;
+    font-family: 'josefin';
+
+    position: absolute;
+    right: 5%;
+}
+
+
+
 
 
 
@@ -554,9 +1094,15 @@ footer section:nth-of-type(2){
 /* help */
 /* ********************* */
 
-footer section:nth-of-type(3){
+footer section:nth-of-type(3) h1{
+    font-family: 'josefinbold';
+}
+
+footer section:nth-of-type(3) a{
     color:var(--TekstKleur);
     text-transform: uppercase;
+    text-decoration: none;
+
     padding-left: 1.5em;
     padding-top: 2em;
     
@@ -564,6 +1110,17 @@ footer section:nth-of-type(3){
     justify-content: start;
     align-items: flex-start;
 }
+
+footer section:nth-of-type(3) h1::after {
+    content: "+";
+    font-size: 1.5em;
+    font-family: 'josefin';
+
+    position: absolute;
+    right: 5%;
+}
+
+
 
 
 
@@ -574,17 +1131,22 @@ footer section:nth-of-type(3){
 footer section:nth-of-type(4){
     color:var(--TekstKleur);
     text-transform: uppercase;
-    padding: 3em;
+    padding: 3em 1em;
+    padding-bottom: 1em;
 }
 
 footer section:nth-of-type(4) a {
     font-family: 'josefinbold';
 }
 
+footer section:nth-of-type(4) h1{
+    font-family: 'josefinbold';
+}
+
 footer section:nth-of-type(4) h2{
-    font-size: 0.9em;
-    text-transform: lowercase;
-    padding: 0.8em ;
+    font-size: 0.85em;
+    text-transform:initial;
+    padding: 0.4em ;
 }
 
 
@@ -593,20 +1155,31 @@ footer section:nth-of-type(4) h2{
 /* lees meer knop */
 /* ********************* */
 
+footer section:nth-of-type(5) {
+    padding-bottom: 2em;
+}
+
 footer section:nth-of-type(5) h1{ 
     color:var(--TekstKleur);
     text-transform: uppercase;
+    font-family: 'josefinbold'; 
+
     text-align: start;
     padding-left: 1.5em;
     padding-top: 0.7em;
-    font-family: 'josefinbold';  
 }
 
-footer img a:first-child{
-    width: 0.5em;
-    background-color:var(--HoofdVlak);
+footer section:nth-of-type(5) a{
+    text-decoration: none; 
 }
 
+
+footer section:nth-of-type(5) h1::after {
+    content: "→";
+
+    position: absolute;
+    right: 5%;
+}
 
 
 /* ********************* */
@@ -616,13 +1189,29 @@ footer img a:first-child{
 footer section:nth-of-type(6) {
     display: flex;
     justify-content: center;
-    gap:5em;
-    padding: 2em;
+    gap:4.5em;
+    padding: 1.2em;
 }
 
 footer section:nth-of-type(6) img {
-    width: 2em;
+    width: 1.4em;
 }
+
+
+
+
+/* ********************* */
+/* auteursrechten */
+/* ********************* */
+
+h4{
+    color:var(--TekstKleur);
+    font-family: 'josefin';
+    text-align: center;
+    padding: 1em 8em;
+    font-size: 0.7em;
+}
+
 
 
 
@@ -630,13 +1219,27 @@ footer section:nth-of-type(6) img {
 /* hennes maurits logo zwart */
 /* ********************* */
 
-footer section:last-of-type {
+footer section:nth-of-type(7) {
     display: flex;
     justify-content: center;
     padding: 2em;
 }
 
-footer section:last-of-type img{
-    width: 15em;
+footer section:nth-of-type(7) img{
+    width: 12em;
+}
 
+
+
+
+
+/* ********************* */
+/* Nederland € tekst */
+/* ********************* */
+
+footer section:nth-of-type(8) h4 {
+    font-size: 0.8em;
+    font-family: 'josefinbold';
+
+    padding-bottom:4em;
 }
