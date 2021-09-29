@@ -187,11 +187,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1      | 
+| ---            | 
+| Footer inklapmenu. Zelfde als hamburgermenu?                           | 
+| Hoe kan ik de teksten het beste mooi op zijn plek houden (responsive)  | 
+| Hoe kan ik de foto + tekst bij groot device beste coderen (responsive) | 
+| Hoe kan ik article elementen bij groot scherm naast elkaar plaatsen    | 
+| Hoe kan ik deze titels plaatsen, zonder dat alles verdwijnt.           | 
+| Als ik tab inklik, selecteert hij ook de menu items zonder dat deze open is..        | 
+
+
+
 
 
 ### Verslag van meeting
