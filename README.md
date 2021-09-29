@@ -41,16 +41,7 @@ Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/in
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
  
- <img src="images/homepage1.jpg" width="375px" alt="detailpagina">
-
-
-#### Screenshot(s) van de tweede pagina (small screen):
-
- Detailpagina
- 
- <img src="images/detail1.jpg" width="375px" alt="detailpagina">
- <img src="images/detail2.jpg" width="375px" alt="detailpagina">
-
+ <img src="breakpoints.png" width="500px" alt="homepagina en blogpagina">
  
 </details>
 
