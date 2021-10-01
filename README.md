@@ -13,7 +13,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
 Sabrina da Silva Gomes
@@ -33,7 +32,6 @@ Responsive
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
 Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/index.html
@@ -52,7 +50,6 @@ Homepage & Blogpage
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### Homepage, productpagina en hamburgermenu: 
 <img src="breakdownschets.png" width="900px" alt="breakdown van de hele pagina">
@@ -66,7 +63,6 @@ Homepage & Blogpage
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
  
@@ -76,7 +72,6 @@ Het schrijven van de CSS code ging in het begin ook niet heel soepel. Zo ben ik 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | Mijn vragen                                                                  |           
 | ---                                                                        |                      
@@ -92,7 +87,6 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de enige was, kon ik daarom ook al heel veel tijdens de meeting aanpassen. Hierdoor zag dus direct verbetering in mijn code. Ook heb ik weer een hoop nieuwe dingen geleerd. Hier heb ik ook aantekeningen van gemaakt. (onderdelen die voor deze website misschien niet helemaal van toepassing zijn, maar wel leuk om te weten) Alle vragen zijn beantwoord en ik weet nu hoe ik weer verder kan!
  
@@ -102,7 +96,7 @@ Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alle
 
 Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om deze te laten veranderen bij een ander device. (responsive). Dit moest ik doen door @media te gebruiken. Dit ging mij niet helemaal goed af in het begin. Toch is dit wel gelukt. Zo ziet mijn code er nu uit:
  
- <img src="footerresponsivehtml.png" width="400px" alt="code van responsive footer">  <img src="footerresponsivecss.png" width="400px" alt="code van responsive footer">  
+ <img src="footerresponsivehtml.png" width="400px" alt="html code van responsive footer">  <img src="footerresponsivecss.png" width="400px" alt="css code van responsive footer">  
 
  
 
@@ -115,16 +109,14 @@ Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
  Deze week ging iets moeilijker dan de week hiervoor. Ik wist hoe ik verder moest en heb dat allemaal kunnen coderen. Hierna kwam het moeilijke deel: namelijk verder coderen, tot alles goed is. Hier liep ik toch een aantal keer vast en was ik best lang bezig om dit te kunnen verbeteren. Uiteindelijk heb ik weer een aantal dingen kunnen toevoegen en gaat de eerste pagina, er steeds beter uit zien.
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
-| student 1      | 
+| Mijn vragen      | 
 | ---            |
 | Hoe kan ik het beste starten, met het maken van een werkend hamburgermenu.                             | 
 | Hoe kan mijn menubalk veranderen van menu icoontjes, naar half tekst/half icoon naar volledige teksten?| 
@@ -133,12 +125,10 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Ook deze week heb ik weer een hoop hulp gekregen. Ook deze keer was ik weer de enige. Hierdoor kon ik weer een hoop vragen. Allereerst was ik begonnen met het maken van een (werkend) hamburgermenu. Zo had ik wel al de items genoteerd, maar was het nog niet echt werkend. Ik had wel het een en ander gevonden op internet. Helaas werkte dit alleen niet. Uiteindelijk hebben we dit samen tijdens de les gedaan. Zo ziet mijn code er nu uit:
+ 
+ <img src="hamburgermenucss.png" width="400px" alt="css code van hamburgermenu"> <img src="hamburgermenujs.png" width= 400px" alt="javascript code van hamburgermenu">  
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
