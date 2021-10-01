@@ -98,11 +98,11 @@ Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de e
  
 Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alles in 1 onderdeel had geschreven en het ook op de verkeerde volgorde was gecodeerd. Nu staat dit gescheiden van elkaar en op de juiste volgorde.
  
- <img src="menubalk.png" width="600px" alt="code van mijn menubalk">  <img src="menubalk2.png" width="400px" alt="foto van mijn menubalk">
+ <img src="menubalk.png" width="600px" alt="code van mijn menubalk">  <img src="menubalk2.png" width="600px" alt="foto van mijn menubalk">
 
 Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om deze te laten veranderen bij een ander device. (responsive). Dit moest ik doen door @media te gebruiken. Dit ging mij niet helemaal goed af in het begin. Toch is dit wel gelukt. Zo ziet mijn code er nu uit:
  
- <img src="footerresponsivehtml.png" width="500px" alt="code van responsive footer">  <img src="footerresponsivecss.png" width="500px" alt="code van responsive footer">  
+ <img src="footerresponsivehtml.png" width="400px" alt="code van responsive footer">  <img src="footerresponsivecss.png" width="400px" alt="code van responsive footer">  
 
  
 
