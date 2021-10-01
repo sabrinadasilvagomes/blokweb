@@ -214,7 +214,11 @@ Deze week sloeg de stress toe. Er was nog ontzettend veel wat ik moest doen. Ik 
 ### Verslag van meeting
 Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu hoe ik de "Standaard levering" tekst kan aanpassen bij het vergroten van het scherm. Op de een of andere manier, sprak ik de elementen weer niet goed aan. Hierdoor gingen al mij H1 elementen weg, i.p.v. alleen het tekstje wat ik wilde verwijderen. Hieronder is de correcte code te zien:
 
- <img src="imagesverslag/standaardverzending.png" width="400px" alt="Code om standaard verzending tekst, responsive te maken">
+<img src="imagesverslag/standaardverzending.png" width="400px" alt="Code om standaard verzending tekst, responsive te maken">
+ 
+ Verder hebben wij er tijdens deze meeting ook voor gezorgd, dat de artikelen responsive worden. Zo moeten deze bij een Small device onder elkaar staan en bij een Large device, naast elkaar. Ik had zoals gewoonlijk weer veel te veel code geschreven, terwijl dit in een aantal zinnen aan te passen was. Hieronder de juiste code: 
+
+ <img src="imagesverslag/artikelenresponsive.png" width="400px" alt="artikelen responsive maken">
 
 </details>
 
