@@ -143,7 +143,10 @@ Deze week hebben wij een toegankelijkheidstest gedaan op school. De test hebben 
 ### Bevindingen
 - Rood/groene kleuren zijn nog goed zichtbaar (goede kleurkeuze van H&M)
 - Mensen met de beperking: Low Contrast, zullen de website minder goed kunnen bekijken. De contrast van de website zou dus eigenlijk aangepast moeten worden. Of een functie invoegen, waardoor ze de contrast kunnen verhogen (bv. KLM)
- - 
+ - Tijdens het gebruik van de tab-toets, werden er ook items aangeklikt uit een gesloten hamburgermenu.
+ - Ik mis een hele hoop ALT-elementen.
+ - Bij de carrousel spreekt hij 2x dezelfde tekst uit. 
+ 
  
 #### Diverse beperkingen
 Onder diverse beperkingen, vallen bv. Parkinson, slechtziend etc. Wij hebben getest op verschillende beperkingen.
@@ -160,6 +163,7 @@ Onder diverse beperkingen, vallen bv. Parkinson, slechtziend etc. Wij hebben get
  
  - Parkinson test: Deze test liet heel goed zien, hoe moeilijk het kan zijn om een computer te besturen. Hierbij was het ook meteen duidelijk, hoe moeilijk het was om te typen. Dit zou dus eigenlijk spraakbestuurd moeten zijn. Dit zou het wel een stuk makkelijker maken om dit te kunnen doen. Hierdoor is het dus ook erg moeilijk om bv. de "tab-toets" te kunnen gebruiken. Hier zou dus ook misschien gekeken kunnen worden naar een functie, waarmee je met spraak de website kan bedienen. 
 
+ 
 #### Toetsenbord
 Ook hebben wij getest hoe de website werkt voor mensen die alleen met het toetsenbord werken. Denk aan de tab-toets. Hier kwamen ook meteen weer een aantal belangrijke punten naar voren. 
  
@@ -167,21 +171,23 @@ Ook hebben wij getest hoe de website werkt voor mensen die alleen met het toetse
  
 - Wat niet helemaal goed ging, was dat je bij een Small device, ook tabt door een gesloten hamburgermenu. Er is hier helemaal niks zichtbaar, dus dit was totaal niet van toepassing. Dit heb ik tijdens het voortganggesprek - met hulp - kunnen oplossen. Nu opent het scherm namelijk meteen het hamburgermenu en kan je hierdoor heen gaan. Als je het laatste item heb bereikt, gaat deze weer dicht. Hieronder is mijn code te zien: 
  
-  <img src="imagesverslag/menutab.png" width="400px" alt="css code tab door menu"> <img src="imagesverslag/menutab2.png" width="400px" alt="voorbeeld foto, tab door menu">
+  <img src="imagesverslag/menutab.png" width="300px" alt="css code tab door menu"> <img src="imagesverslag/menutab2.png" width="300px" alt="voorbeeld foto, tab door menu">
+
+ Een ander probleem, was dat het hamburgermenu wel open kon, maar niet dicht. Door de code die ik hiervoor heb getoond, kan dit nu wel. Zo is alles nu in 1x opgelost.
 
 
 
+#### Screenreader 
+Tijdens deze test, kregen wij te zien hoe iemand de website ervaart met het gebruik van een screenreader. Ik schrok hier best van. Mijn website zat namelijk helemaal niet goed in elkaar. Soms kreeg je geen informatie, soms dubbele informatie en soms informatie die totaal overbodig was. 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+- Allereerst las de screenreader de tekst niet goed voor. Ik had namelijk in mijn HTML aangegeven, dat de tekst Engelstalig was. Mijn tekst was juist Nederlandstalig. Hierdoor sprak de screenreader de tekst, met een raar accent uit. Dit heb ik gelijk aangepast in mijn HTML.
+ 
+- Verder was ik bij vele afbeeldingen vergeten om het ALT element toe te voegen. Hierdoor werd er dus niet verteld wat er precies te zien was op de afbeelding. Dit was dus een heel belangrijk iets, wat ik vergeten was. Ook dit heb ik meteen na de test aangepast op mijn website. Alle afbeeldingen hebben nu een ALT tekst. 
+ 
+ - Nog iets anders was dat de ALT tekst wel van waarde moest zijn voor de gebruiker. Een afbeelding met de ALT tekst: "logo H&M" is dus niet heel veel van waarde. De afbeelding was namelijk ook een link naar een bepaalde pagina. Het zou hier meer van waarde zijn, als de ALT tekst is: "Logo H&M, ga naar homepage". Dit is ook iets wat aangepast gaat worden. Zo is het voor de gebruiker ook duidelijk wat er precies aan de hand is. 
+ 
+ - Als laatste zag ik ook dat er iets niet helemaal goed ging bij mijn carrousel. Zo sprak de screenreader de tekst uit, die onder elk item van de carrousel geschreven stond, maar ook de ALT tekst, die dezelfde tekst bevat. Zo kreeg de gebruiker dus twee keer dezelfde informatie te horen. Het zou dan veel meer van waarde zijn, als de ALT tekst de sfeer zou omschrijven. Bv. bij Dames kleding, ALT: Sfeerfoto dame met roze winterjas en blauwe spijkerbroek. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
