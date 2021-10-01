@@ -38,8 +38,8 @@ Responsive
 ### Je opdracht:
 Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/index.html
 
-#### Screenshot(s) van de eerste pagina (small screen): 
-Homepage
+#### Screenshot(s) van de pagina's (small screen): 
+Homepage & Blogpage
  
  <img src="breakpoints.png" width="900px" alt="homepagina en blogpagina">
  
@@ -78,7 +78,7 @@ Het schrijven van de CSS code ging in het begin ook niet heel soepel. Zo ben ik 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1                                                                  |           
+| Mijn vragen                                                                  |           
 | ---                                                                        |                      
 | Het aanspreken van de elementen gaat niet helemaal goed                    |                
 | Moet alles met position: absolute gepositioneerd worden                    | 
@@ -94,9 +94,12 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de enige was, kon ik daarom ook al heel veel tijdens de meeting aanpassen. Hierdoor zag dus direct verbetering in mijn code. Ook heb ik weer een hoop nieuwe dingen geleerd. Hier heb ik ook aantekeningen van gemaakt. (onderdelen die voor deze website misschien niet helemaal van toepassing zijn, maar wel leuk om te weten) 
+Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de enige was, kon ik daarom ook al heel veel tijdens de meeting aanpassen. Hierdoor zag dus direct verbetering in mijn code. Ook heb ik weer een hoop nieuwe dingen geleerd. Hier heb ik ook aantekeningen van gemaakt. (onderdelen die voor deze website misschien niet helemaal van toepassing zijn, maar wel leuk om te weten) Alle vragen zijn beantwoord en ik weet nu hoe ik weer verder kan!
  
- Alle vragen zijn beantwoord en ik weet nu hoe ik weer verder kan!
+Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alles in 1 onderdeel had geschreven en het ook op de verkeerde volgorde was gecodeerd. Nu staat dit gescheiden van elkaar en op de juiste volgorde.
+ 
+ <img src="menubalk.png" width="300px" alt="code van mijn menubalk">
+
 
 </details>
 
