@@ -98,7 +98,8 @@ Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de e
  
 Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alles in 1 onderdeel had geschreven en het ook op de verkeerde volgorde was gecodeerd. Nu staat dit gescheiden van elkaar en op de juiste volgorde.
  
- <img src="menubalk.png" width="300px" alt="code van mijn menubalk">
+ <img src="menubalk.png" width="400px" alt="code van mijn menubalk">  <img src="menubalk2.png" width="400px" alt="foto van mijn menubalk">
+
 
 
 </details>
