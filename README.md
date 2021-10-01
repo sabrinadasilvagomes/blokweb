@@ -1,10 +1,5 @@
 # Procesverslag
 
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
 
 ## Jij
 
@@ -48,7 +43,7 @@ Homepage & Blogpage
 <details>
 
 ### Homepage, productpagina en hamburgermenu: 
-<img src="imagesverslag/breakdownschets.png" width="900px" alt="breakdown van de hele pagina">
+<img src="imagesverslag/breakdownschets.png" width="800px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -188,7 +183,7 @@ Tijdens deze test, kregen wij te zien hoe iemand de website ervaart met het gebr
 
 Dit is wat ik dus eerst had geschreven en wat niet goed is:
  
- <img src="imagesverslag/alttekstfout.png" width="600px" alt="css code tab door menu">
+ <img src="imagesverslag/alttekstfout.png" width="600px" alt="alt tekst op de verkeerde manier geschreven">
  
 </details>
 
@@ -199,35 +194,27 @@ Dit is wat ik dus eerst had geschreven en wat niet goed is:
 ## Voortgang 3 (week 4)
 
 <details open>
-<summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Deze week sloeg de stress toe. Er was nog ontzettend veel wat ik moest doen. Ik was erg bang dat ik het niet allemaal op tijd af zou kunnen krijgen. Ook omdat ik bij een aantal onderdelen erg vast liep. Wat ik ook probeerde, niks leek te lukken. Gelukkig viel het tijdens de voortganggesprekken erg mee en hebben we in een hele korte tijd, heel veel kunnen aanpassen. Bij vele dingen was het een kwestie van een kleine aanpassing. Ik was er dus veel te moeilijk over aan het denken.
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
-| student 1      | 
+| Mijn vragen      | 
 | ---            | 
 | Footer inklapmenu. Zelfde als hamburgermenu?                           | 
 | Hoe kan ik de teksten het beste mooi op zijn plek houden (responsive)  | 
 | Hoe kan ik de foto + tekst bij groot device beste coderen (responsive) | 
 | Hoe kan ik article elementen bij groot scherm naast elkaar plaatsen    | 
 | Hoe kan ik deze titels plaatsen, zonder dat alles verdwijnt.           | 
-| Als ik tab inklik, selecteert hij ook de menu items zonder dat deze open is..        | 
-
-
+| Als ik tab inklik, selecteert hij ook de menu items zonder dat deze open is        | 
 
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu hoe ik de "Standaard levering" tekst kan aanpassen bij het vergroten van het scherm. Op de een of andere manier, sprak ik de elementen weer niet goed aan. Hierdoor gingen al mij H1 elementen weg, i.p.v. alleen het tekstje wat ik wilde verwijderen. Hieronder is de correcte code te zien:
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+ <img src="imagesverslag/standaardverzending.png" width="400px" alt="Code om standaard verzending tekst, responsive te maken">
 
 </details>
 
