@@ -142,18 +142,28 @@ Ook deze week heb ik weer een hoop hulp gekregen. Ook deze keer was ik weer de e
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
+Deze week hebben wij een toegankelijkheidstest gedaan op school. De test hebben wij in 3 delen gedaan. Namelijk voor een screenreader, mensen die alleen toetsenbord kunnen gebruiken en andere diverse beperkingen. Hieronder is te lezen wat er uit deze test is gekomen en hoe dit opgelost zou kunnen worden.
+ 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+- Rood/groene kleuren zijn nog goed zichtbaar (goede kleurkeuze van H&M)
+- Mensen met de beperking: Low Contrast, zullen de website minder goed kunnen bekijken. De contrast van de website zou dus eigenlijk aangepast moeten worden. Of een functie invoegen, waardoor ze de contrast kunnen verhogen (bv. KLM)
+ - 
+ 
+#### Diverse beperkingen
+Onder diverse beperkingen, vallen bv. Parkinson, slechtziend etc. Wij hebben getest op verschillende beperkingen.
+ - Kleurcontrast: Dit is dat je bepaalde kleuren niet goed van elkaar kan onderscheiden. Denk aan groen en rood. Ik heb de kleuren van H&M overgenomen. Wat mij meteen opviel, was dat het rode logo/quotes van H&M heel erg duidelijk bleven. Hier heeft H&M dan denk ik van te voren al goed over na gedacht. De teksten waren hierdoor dus nog goed te lezen. Dit geldt ook voor de andere kleuren. Hierdoor was er hier niet heel veel wat ik zou moeten aanpassen. 
+ 
+ - Central view loss: Dit betekend dat je vanuit het midden niet goed kan zien. Je ziet dus als het ware, alles er om heen. Dit is best lastig op te lossen. Je kan immers niet alles aan de zijkanten plaatsen en niet in het midden van de webpagina. Iets wat je wel zou kunnen doen, is dat je de teksten en afbeeldingen iets groter maakt. Als er dan vanaf de zijkant gekeken wordt, is het misschien iets beter zichtbaar. Teksten zijn nu namelijk best klein. Wel zou de gebruiker op het scherm kunnen inzoomen.
+ 
+ - Low contrast: De tekst is hierbij niet zo goed leesbaar als normaal. Een mogelijkheid is om een functie in te bouwen, waardoor het contrast groter wordt. (zoals bv. KLM dit doet). Denk dus aan donkerdere teksten en buttons. 
+ 
+ - Hemifield loss: Dit is als er een deel van je beeld afvalt. Denk bv. aan je linkeroog, is beeld aan de rechterkant niet goed zichtbaar. Aan je rechteroog is de linkerkant niet goed zichtbaar. Uit de test bleek, dat het scherm nog goed te lezen was. Het is wel erg vermoeiend, omdat de helft van het beeld gewoon wegvalt. Ook hier zou de gebruiker eventueel kunnen inzoomen, om het toch beter en fijner te kunnen lezen. 
+ 
+ - Elastiek om wijs- en middelvinger (mindere motoriek): Hierbij merkte ik ook meteen, dat typen lastiger werd. Je kon namelijk veel moeilijker typen. Doordat 2 vingers aan elkaar vast zaten, drukte je vaak een andere toets aan, dan je van plan was. Het gebruik van de muis ging wel vrij goed nog. 
+ 
+ - Parkinson test: Deze test liet heel goed zien, hoe moeilijk het kan zijn om een computer te besturen. Hierbij was het ook meteen duidelijk, hoe moeilijk het was om te typen. Dit zou dus eigenlijk spraakbestuurd moeten zijn. Dit zou het wel een stuk makkelijker maken om dit te kunnen doen. Hierdoor is het dus ook erg moeilijk om bv. de "tabtoets" te kunnen gebruiken. Hier zou dus ook misschien gekeken kunnen worden naar een functie, waarmee je met spraak de website kan bedienen. 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
+#### Toetsenbord en muis 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
