@@ -131,7 +131,7 @@ Ook deze week heb ik weer een hoop hulp gekregen. Ook deze keer was ik weer de e
 
  Verder ben ik ook bezig geweest met het responsive maken van de website. Zo ben ik dus weer aan de slag met @media. De code die ik hiervoor heb geschreven ziet er nu zo uit: (dit was in het begin voor de helft goed. Door de gekregen hulp, is het nu logischer en netter geschreven)
  
- <img src="mediahomepage.png" width="400px" alt="css code van hamburgermenu">
+ <img src="mediahomepage.png" width="400px" alt="css code voor responsive homepage">
 
 </details>
 
