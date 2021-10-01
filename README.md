@@ -169,11 +169,9 @@ Ook hebben wij getest hoe de website werkt voor mensen die alleen met het toetse
  
 - Als je tabt begint hij eerst bij het logo, dan het hamburgermenu. Dit is ook hoe het op de "Echte" website gaat. Hier hoef ik dus niks aan te veranderen. 
  
-- Wat niet helemaal goed ging, was dat je bij een Small device, ook tabt door een gesloten hamburgermenu. Er is hier helemaal niks zichtbaar, dus dit was totaal niet van toepassing. Dit heb ik tijdens het voortganggesprek - met hulp - kunnen oplossen. Nu opent het scherm namelijk meteen het hamburgermenu en kan je hierdoor heen gaan. Als je het laatste item heb bereikt, gaat deze weer dicht. Hieronder is mijn code te zien: 
+- Wat niet helemaal goed ging, was dat je bij een Small device, ook tabt door een gesloten hamburgermenu. Er is hier helemaal niks zichtbaar, dus dit was totaal niet van toepassing. Dit heb ik tijdens het voortganggesprek - met hulp - kunnen oplossen. Nu opent het scherm namelijk meteen het hamburgermenu en kan je hierdoor heen gaan. Als je het laatste item heb bereikt, gaat deze weer dicht. Een ander probleem, was dat het hamburgermenu wel open kon, maar niet dicht. Door de code die ik hiervoor heb getoond, kan dit nu wel. Zo is alles nu in 1x opgelost. Hieronder is mijn code te zien: 
  
   <img src="imagesverslag/menutab.png" width="300px" alt="css code tab door menu"> <img src="imagesverslag/menutab2.png" width="300px" alt="voorbeeld foto, tab door menu">
-
- Een ander probleem, was dat het hamburgermenu wel open kon, maar niet dicht. Door de code die ik hiervoor heb getoond, kan dit nu wel. Zo is alles nu in 1x opgelost.
 
 
 
@@ -190,7 +188,7 @@ Tijdens deze test, kregen wij te zien hoe iemand de website ervaart met het gebr
 
 Dit is wat ik dus eerst had geschreven en wat niet goed is:
  
- <img src="imagesverslag/alttekstfout.png" width="500px" alt="css code tab door menu">
+ <img src="imagesverslag/alttekstfout.png" width="600px" alt="css code tab door menu">
  
 </details>
 
