@@ -1,8 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
@@ -62,7 +58,7 @@ Homepage & Blogpage
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
 
 ### Stand van zaken
  
@@ -108,7 +104,7 @@ Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 
 ### Stand van zaken
  Deze week ging iets moeilijker dan de week hiervoor. Ik wist hoe ik verder moest en heb dat allemaal kunnen coderen. Hierna kwam het moeilijke deel: namelijk verder coderen, tot alles goed is. Hier liep ik toch een aantal keer vast en was ik best lang bezig om dit te kunnen verbeteren. Uiteindelijk heb ik weer een aantal dingen kunnen toevoegen en gaat de eerste pagina, er steeds beter uit zien.
@@ -151,6 +147,7 @@ Deze week hebben wij een toegankelijkheidstest gedaan op school. De test hebben 
  
 #### Diverse beperkingen
 Onder diverse beperkingen, vallen bv. Parkinson, slechtziend etc. Wij hebben getest op verschillende beperkingen.
+ 
  - Kleurcontrast: Dit is dat je bepaalde kleuren niet goed van elkaar kan onderscheiden. Denk aan groen en rood. Ik heb de kleuren van H&M overgenomen. Wat mij meteen opviel, was dat het rode logo/quotes van H&M heel erg duidelijk bleven. Hier heeft H&M dan denk ik van te voren al goed over na gedacht. De teksten waren hierdoor dus nog goed te lezen. Dit geldt ook voor de andere kleuren. Hierdoor was er hier niet heel veel wat ik zou moeten aanpassen. 
  
  - Central view loss: Dit betekend dat je vanuit het midden niet goed kan zien. Je ziet dus als het ware, alles er om heen. Dit is best lastig op te lossen. Je kan immers niet alles aan de zijkanten plaatsen en niet in het midden van de webpagina. Iets wat je wel zou kunnen doen, is dat je de teksten en afbeeldingen iets groter maakt. Als er dan vanaf de zijkant gekeken wordt, is het misschien iets beter zichtbaar. Teksten zijn nu namelijk best klein. Wel zou de gebruiker op het scherm kunnen inzoomen.
@@ -161,12 +158,18 @@ Onder diverse beperkingen, vallen bv. Parkinson, slechtziend etc. Wij hebben get
  
  - Elastiek om wijs- en middelvinger (mindere motoriek): Hierbij merkte ik ook meteen, dat typen lastiger werd. Je kon namelijk veel moeilijker typen. Doordat 2 vingers aan elkaar vast zaten, drukte je vaak een andere toets aan, dan je van plan was. Het gebruik van de muis ging wel vrij goed nog. 
  
- - Parkinson test: Deze test liet heel goed zien, hoe moeilijk het kan zijn om een computer te besturen. Hierbij was het ook meteen duidelijk, hoe moeilijk het was om te typen. Dit zou dus eigenlijk spraakbestuurd moeten zijn. Dit zou het wel een stuk makkelijker maken om dit te kunnen doen. Hierdoor is het dus ook erg moeilijk om bv. de "tabtoets" te kunnen gebruiken. Hier zou dus ook misschien gekeken kunnen worden naar een functie, waarmee je met spraak de website kan bedienen. 
+ - Parkinson test: Deze test liet heel goed zien, hoe moeilijk het kan zijn om een computer te besturen. Hierbij was het ook meteen duidelijk, hoe moeilijk het was om te typen. Dit zou dus eigenlijk spraakbestuurd moeten zijn. Dit zou het wel een stuk makkelijker maken om dit te kunnen doen. Hierdoor is het dus ook erg moeilijk om bv. de "tab-toets" te kunnen gebruiken. Hier zou dus ook misschien gekeken kunnen worden naar een functie, waarmee je met spraak de website kan bedienen. 
 
-#### Toetsenbord en muis 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Toetsenbord
+Ook hebben wij getest hoe de website werkt voor mensen die alleen met het toetsenbord werken. Denk aan de tab-toets. Hier kwamen ook meteen weer een aantal belangrijke punten naar voren. 
+ 
+- Als je tabt begint hij eerst bij het logo, dan het hamburgermenu. Dit is ook hoe het op de "Echte" website gaat. Hier hoef ik dus niks aan te veranderen. 
+ 
+- Wat niet helemaal goed ging, was dat je bij een Small device, ook tabt door een gesloten hamburgermenu. Er is hier helemaal niks zichtbaar, dus dit was totaal niet van toepassing. Dit heb ik tijdens het voortganggesprek - met hulp - kunnen oplossen. Nu opent het scherm namelijk meteen het hamburgermenu en kan je hierdoor heen gaan. Als je het laatste item heb bereikt, gaat deze weer dicht. Hieronder is mijn code te zien: 
+ 
+  <img src="imagesverslag/menutab.png" width="400px" alt="css code tab door menu"> <img src="imagesverslag/menutab2.png" width="400px" alt="voorbeeld foto, tab door menu">
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 
 
 #### Titel volgende bevinding. 
@@ -188,7 +191,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
@@ -227,7 +230,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
+<detail opens>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
