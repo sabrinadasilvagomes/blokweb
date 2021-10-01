@@ -256,6 +256,6 @@ https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 - Nog wat extra informatie bij het maken van een button:
- https://www.w3schools.com/tags/tag_button.asp
+https://www.w3schools.com/tags/tag_button.asp
  
 </details>
