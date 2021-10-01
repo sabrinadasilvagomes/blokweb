@@ -127,7 +127,7 @@ Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om
 ### Verslag van meeting
 Ook deze week heb ik weer een hoop hulp gekregen. Ook deze keer was ik weer de enige. Hierdoor kon ik weer een hoop vragen. Allereerst was ik begonnen met het maken van een (werkend) hamburgermenu. Zo had ik wel al de items genoteerd, maar was het nog niet echt werkend. Ik had wel het een en ander gevonden op internet. Helaas werkte dit alleen niet. Uiteindelijk hebben we dit samen tijdens de les gedaan. Zo ziet mijn code er nu uit:
  
- <img src="hamburgermenucss.png" width="400px" alt="css code van hamburgermenu"> <img src="hamburgermenujs.png" width= 400px" alt="javascript code van hamburgermenu">  
+ <img src="hamburgermenucss.png" width="400px" alt="css code van hamburgermenu"><img src="hamburgermenujs.png" width="400px" alt="javascript code van hamburgermenu"> 
 
 
 </details>
