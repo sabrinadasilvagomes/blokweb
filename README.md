@@ -8,11 +8,11 @@
 ### Auteur:
 Sabrina da Silva Gomes
 
-#### Je startniveau:
+#### Startniveau:
 Rood
 
-#### Je focus:
-Responsive
+#### Focus:
+Responsive website
  
 </details>
 
@@ -20,14 +20,14 @@ Responsive
 
 
 
-## Je website
+## De website
 
 <details open>
 
-### Je opdracht:
+### De opdracht:
 Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/index.html
 
-#### Screenshot(s) van de pagina's (small screen): 
+#### Screenshot(s) van de pagina's: 
 Homepage & Blogpage
  
  <img src="imagesverslag/breakpoints.png" width="900px" alt="homepagina en blogpagina">
@@ -88,8 +88,6 @@ Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alle
 Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om deze te laten veranderen bij een ander device. (responsive). Dit moest ik doen door @media te gebruiken. Dit ging mij niet helemaal goed af in het begin. Toch is dit wel gelukt. Zo ziet mijn code er nu uit:
  
  <img src="imagesverslag/footerresponsivehtml.png" width="400px" alt="html code van responsive footer">  <img src="imagesverslag/footerresponsivecss.png" width="400px" alt="css code van responsive footer">  
-
- 
 
 </details>
 
@@ -196,6 +194,7 @@ Dit is wat ik dus eerst had geschreven en wat niet goed is:
 <details open>
 
 ### Stand van zaken
+ 
 Deze week sloeg de stress toe. Er was nog ontzettend veel wat ik moest doen. Ik was erg bang dat ik het niet allemaal op tijd af zou kunnen krijgen. Ook omdat ik bij een aantal onderdelen erg vast liep. Wat ik ook probeerde, niks leek te lukken. Gelukkig viel het tijdens de voortganggesprekken erg mee en hebben we in een hele korte tijd, heel veel kunnen aanpassen. Bij vele dingen was het een kwestie van een kleine aanpassing. Ik was er dus veel te moeilijk over aan het denken.
 
 ### Agenda voor meeting
@@ -247,12 +246,16 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+- Heel veel hulp van docent en studentassistenten
+ 
+- Ik had hier informatie uit gehaald om een hamburgermenu te kunnen maken. (Uiteindelijk heb ik dit niet helemaal gebruikt)
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+ 
+- Voor het maken van een carrousel had ik hier informatie uit gehaald. (Uiteindelijk heb ik dit niet helemaal gebruikt) 
+https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-1. bron 1
-2. bron 2
-3. ...
-
+- Nog wat extra informatie bij het maken van een button:
+ https://www.w3schools.com/tags/tag_button.asp
+ 
 </details>
