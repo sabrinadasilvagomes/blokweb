@@ -39,7 +39,7 @@ Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/in
 #### Screenshot(s) van de pagina's (small screen): 
 Homepage & Blogpage
  
- <img src="breakpoints.png" width="900px" alt="homepagina en blogpagina">
+ <img src="imagesverslag/breakpoints.png" width="900px" alt="homepagina en blogpagina">
  
 </details>
 
@@ -52,7 +52,7 @@ Homepage & Blogpage
 <details>
 
 ### Homepage, productpagina en hamburgermenu: 
-<img src="breakdownschets.png" width="900px" alt="breakdown van de hele pagina">
+<img src="imagesverslag/breakdownschets.png" width="900px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -92,11 +92,11 @@ Ik heb vele vragen kunnen stellen en hulp gekregen bij knelpunten. Omdat ik de e
  
 Zo ziet mijn menubalk er nu uit. Dit was eerst niet helemaal goed, omdat ik alles in 1 onderdeel had geschreven en het ook op de verkeerde volgorde was gecodeerd. Nu staat dit gescheiden van elkaar en op de juiste volgorde.
  
- <img src="menubalk.png" width="600px" alt="code van mijn menubalk">  <img src="menubalk2.png" width="600px" alt="foto van mijn menubalk">
+ <img src="imagesverslag/menubalk.png" width="600px" alt="code van mijn menubalk">  <img src="imagesverslag/menubalk2.png" width="600px" alt="foto van mijn menubalk">
 
 Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om deze te laten veranderen bij een ander device. (responsive). Dit moest ik doen door @media te gebruiken. Dit ging mij niet helemaal goed af in het begin. Toch is dit wel gelukt. Zo ziet mijn code er nu uit:
  
- <img src="footerresponsivehtml.png" width="400px" alt="html code van responsive footer">  <img src="footerresponsivecss.png" width="400px" alt="css code van responsive footer">  
+ <img src="imagesverslag/footerresponsivehtml.png" width="400px" alt="html code van responsive footer">  <img src="imagesverslag/footerresponsivecss.png" width="400px" alt="css code van responsive footer">  
 
  
 
@@ -127,11 +127,11 @@ Verder was ik ook bezig met de footer. Ik kreeg het niet helemaal voor elkaar om
 ### Verslag van meeting
 Ook deze week heb ik weer een hoop hulp gekregen. Ook deze keer was ik weer de enige. Hierdoor kon ik weer een hoop vragen. Allereerst was ik begonnen met het maken van een (werkend) hamburgermenu. Zo had ik wel al de items genoteerd, maar was het nog niet echt werkend. Ik had wel het een en ander gevonden op internet. Helaas werkte dit alleen niet. Uiteindelijk hebben we dit samen tijdens de les gedaan. Zo ziet mijn code er nu uit:
  
- <img src="hamburgermenucss.png" width="400px" alt="css code van hamburgermenu"><img src="hamburgermenujs.png" width="400px" alt="javascript code van hamburgermenu"> 
+ <img src="imagesverslag/hamburgermenucss.png" width="400px" alt="css code van hamburgermenu"><img src="imagesverslag/hamburgermenujs.png" width="400px" alt="javascript code van hamburgermenu"> 
 
  Verder ben ik ook bezig geweest met het responsive maken van de website. Zo ben ik dus weer aan de slag met @media. De code die ik hiervoor heb geschreven ziet er nu zo uit: (dit was in het begin voor de helft goed. Door de gekregen hulp, is het nu logischer en netter geschreven)
  
- <img src="mediahomepage.png" width="400px" alt="css code voor responsive homepage">
+ <img src="imagesverslag/mediahomepage.png" width="400px" alt="css code voor responsive homepage">
 
 </details>
 
