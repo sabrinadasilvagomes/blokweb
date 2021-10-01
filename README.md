@@ -189,7 +189,9 @@ Tijdens deze test, kregen wij te zien hoe iemand de website ervaart met het gebr
  - Als laatste zag ik ook dat er iets niet helemaal goed ging bij mijn carrousel. Zo sprak de screenreader de tekst uit, die onder elk item van de carrousel geschreven stond, maar ook de ALT tekst, die dezelfde tekst bevat. Zo kreeg de gebruiker dus twee keer dezelfde informatie te horen. Het zou dan veel meer van waarde zijn, als de ALT tekst de sfeer zou omschrijven. Bv. bij Dames kleding, ALT: Sfeerfoto dame met roze winterjas en blauwe spijkerbroek. 
 
 Dit is wat ik dus eerst had geschreven en wat niet goed is:
- <img src="imagesverslag/alttekstfout.png" width="300px" alt="css code tab door menu">
+ 
+ <img src="imagesverslag/alttekstfout.png" width="500px" alt="css code tab door menu">
+ 
 </details>
 
 
