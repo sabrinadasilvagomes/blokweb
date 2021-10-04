@@ -221,7 +221,7 @@ Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu ho
  
  Ook ben ik bezig geweest op de teksten te verplaatsen, tijdens het veranderen van scherm. Zo staat er eerst Magazine (bij Small Device). Als je vervolgens een groter device hebt, komen er 3 kopjes bij. Als je dan naar beneden scrolt, gaat de balk mee. Magazine staat dan links en de overige kopjes in het midden.
  
-  <img src="imagesverslag/balkveranderd.png" width="350px" alt="balk veranderd aan de hand van device"> <img src="imagesverslag/balkveranderdeigen.png" width="350px" alt="balk veranderd aan de hand van device">
+  <img src="imagesverslag/balkveranderd.png" width="500px" alt="balk veranderd aan de hand van device"> <img src="imagesverslag/balkveranderdeigen.png" width="500px" alt="balk veranderd aan de hand van device">
 
 </details>
 
