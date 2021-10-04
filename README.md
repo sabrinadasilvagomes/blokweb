@@ -40,7 +40,7 @@ Homepage & Blogpage
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
 
 ### Homepage, productpagina en hamburgermenu: 
 <img src="imagesverslag/breakdownschets.png" width="800px" alt="breakdown van de hele pagina">
