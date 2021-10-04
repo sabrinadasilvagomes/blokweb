@@ -32,6 +32,13 @@ Homepage & Blogpage
  
  <img src="imagesverslag/breakpoints.png" width="900px" alt="homepagina en blogpagina">
  
+ 
+ ##LET OP!
+ 
+ Ga naar pagina 2, door hier te klikken:
+ 
+  <img src="imagesverslag/naarpagina2.png" width="500px" alt="artikel, ga naar pagina 2">
+
 </details>
 
 
