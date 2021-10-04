@@ -22,7 +22,7 @@ Responsive website
 
 ## De website
 
-<details open>
+<details>
 
 ### De opdracht:
 Ik ga de website van H&M responsive maken. Website: https://www2.hm.com/nl_nl/index.html
@@ -40,7 +40,7 @@ Homepage & Blogpage
 
 ## Breakdownschets (week 1)
 
-<details open>
+<details>
 
 #### Homepage, productpage (veranderd naar blogpage) en hamburgermenu: 
 <img src="imagesverslag/breakdownschets2.png" width="500px" alt="breakdown van de hele pagina">
