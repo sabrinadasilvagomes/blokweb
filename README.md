@@ -234,9 +234,9 @@ Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu ho
 <detail opens>
 
 ### Stand van zaken
-In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond alles nog een beetje scheef en wist ik nu (na de voortganggesprekken) hoe ik dit kon aanpassen. Hier ben ik dus als eerste mee verder gegaan. Verder kwam ik er ook achter dat mijn code niet helemaal netjes was. Ik ben daarom gaan kijken of alle code wel nodig was (functie had) en of ik sommige code dubbel had geschreven. Dit kwam helaas vaker voor dan ik dacht. Dit heb ik dan ook snel opgelost. Onnodige code is verwijderd en code die op meerdere items van toepassing was, is gecombineerd.
+In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond alles nog een beetje scheef en wist ik nu (na de voortganggesprekken) hoe ik dit kon aanpassen. Hier ben ik dus als eerste mee verder gegaan. Verder kwam ik er ook achter dat mijn code niet helemaal netjes was. Ik ben daarom gaan kijken of alle code wel nodig was (functie had) en of ik sommige code dubbel had geschreven. Dit kwam helaas vaker voor dan ik dacht. Dit heb ik dan ook snel opgelost. Onnodige code is verwijderd en code die op meerdere items van toepassing was, is gecombineerd. Zo ging ik van bijna 2000 regels code, naar rond de 1300.
  
- <img src="imagesverslag/samengevoegdcss.png" width="500px" alt="samengevoegde css code">
+ <img src="imagesverslag/samengevoegdcss.png" width="300px" alt="samengevoegde css code">
  
  Ook moest ik nog kijken naar de articles op mijn homepage. Zo moest dat eigenlijk de volledige breedte innemen. Dit ging bij mij niet helemaal goed. Dit omdat ik een @media aan de gehele main had toegevoegd. Nu heb ik dit per section gedaan en heb ik dit anders gedaan, bij de articles. Nu neemt dit dus wel de gehele breedte in.  
 
@@ -245,7 +245,7 @@ In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond a
 
 ### Screenshot(s)
 
- Dit is hoe mijn website er uitziet, vergeleken met de website van H&M. Ik zie nog een hoop verbeterpunten, maar ben toch ook wel trots op dit resultaat. 
+ Dit is hoe mijn website er uitziet, vergeleken met de website van H&M.
  
 ### Home
  
@@ -255,7 +255,10 @@ In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond a
 ### Blog
  
  <img src="imagesverslag/blogmijnwebsite.png" width="900px" alt="foto's van hoe gemaakte blogpage er nu uit ziet">
-
+ 
+ 
+ 
+ Ik zie nog een hoop verbeterpunten, maar ben toch ook wel trots op dit resultaat. 
  
 </details>
 
