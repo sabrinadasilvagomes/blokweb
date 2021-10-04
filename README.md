@@ -232,15 +232,19 @@ Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu ho
 ## Eindgesprek (week 5)
 
 <detail opens>
-<summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
-
+ Dit is hoe mijn website er uitziet, vergeleken met de website van H&M:
+ 
+###Home
+<img src="imagesverslag/homemijnwebsite.png" width="700px" alt="foto's van hoe gemaakte homepage er nu uit ziet">
+ 
+ 
+###Blog
 </details>
 
 
