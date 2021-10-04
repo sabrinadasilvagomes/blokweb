@@ -238,7 +238,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Screenshot(s)
 
- Dit is hoe mijn website er uitziet, vergeleken met de website van H&M:
+ Dit is hoe mijn website er uitziet, vergeleken met de website van H&M. Ik zie nog een hoop verbeterpunten, maar ben toch ook wel trots op dit resultaat. 
  
 ### Home
  
@@ -246,6 +246,9 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
  
  
 ### Blog
+ 
+ <img src="imagesverslag/blogmijnwebsite.png" width="900px" alt="foto's van hoe gemaakte blogpage er nu uit ziet">
+
  
 </details>
 
