@@ -218,6 +218,10 @@ Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu ho
  Verder hebben wij er tijdens deze meeting ook voor gezorgd, dat de artikelen responsive worden. Zo moeten deze bij een Small device onder elkaar staan en bij een Large device, naast elkaar. Ik had zoals gewoonlijk weer veel te veel code geschreven, terwijl dit in een aantal zinnen aan te passen was. Hieronder de juiste code: 
 
  <img src="imagesverslag/artikelenresponsive.png" width="400px" alt="artikelen responsive maken">
+ 
+ Ook ben ik bezig geweest op de teksten te verplaatsen, tijdens het veranderen van scherm. Zo staat er eerst Magazine (bij Small Device). Als je vervolgens een groter device hebt, komen er 3 kopjes bij. Als je dan naar beneden scrolt, gaat de balk mee. Magazine staat dan links en de overige kopjes in het midden.
+ 
+  <img src="imagesverslag/balkveranderd.png" width="300px" alt="balk veranderd aan de hand van device"> <img src="imagesverslag/balkveranderdeigen.png" width="300px" alt="balk veranderd aan de hand van device">
 
 </details>
 
