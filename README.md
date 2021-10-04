@@ -247,12 +247,12 @@ In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond a
 
  Dit is hoe mijn website er uitziet, vergeleken met de website van H&M.
  
-### Home
+#### Home
  
 <img src="imagesverslag/homemijnwebsite.png" width="900px" alt="foto's van hoe gemaakte homepage er nu uit ziet">
  
  
-### Blog
+#### Blog
  
  <img src="imagesverslag/blogmijnwebsite.png" width="900px" alt="foto's van hoe gemaakte blogpage er nu uit ziet">
  
