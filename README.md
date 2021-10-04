@@ -234,7 +234,14 @@ Uit deze meeting heb ik weer een hoop oplossingen kunnen halen. Zo weet ik nu ho
 <detail opens>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In de laatste week waren er nog een hoop dingen die moesten gebeuren. Zo stond alles nog een beetje scheef en wist ik nu (na de voortganggesprekken) hoe ik dit kon aanpassen. Hier ben ik dus als eerste mee verder gegaan. Verder kwam ik er ook achter dat mijn code niet helemaal netjes was. Ik ben daarom gaan kijken of alle code wel nodig was (functie had) en of ik sommige code dubbel had geschreven. Dit kwam helaas vaker voor dan ik dacht. Dit heb ik dan ook snel opgelost. Onnodige code is verwijderd en code die op meerdere items van toepassing was, is gecombineerd.
+ 
+ <img src="imagesverslag/samengevoegdcss.png" width="700px" alt="samengevoegde css code">
+ 
+ Ook moest ik nog kijken naar de articles op mijn homepage. Zo moest dat eigenlijk de volledige breedte innemen. Dit ging bij mij niet helemaal goed. Dit omdat ik een @media aan de gehele main had toegevoegd. Nu heb ik dit per section gedaan en heb ik dit anders gedaan, bij de articles. Nu neemt dit dus wel de gehele breedte in.  
+
+  <img src="imagesverslag/codearticles.png" width="300px" alt="css code om articles op gehele breedte weer te geven"><img src="imagesverslag/voorbeeldarticles.png" width="500px" alt="articles op gehele breedte">
+
 
 ### Screenshot(s)
 
