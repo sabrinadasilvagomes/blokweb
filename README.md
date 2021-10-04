@@ -43,7 +43,7 @@ Homepage & Blogpage
 <details open>
 
 ### Homepage, productpagina en hamburgermenu: 
-<img src="imagesverslag/breakdownschetsweb.png" width="500px" alt="breakdown van de hele pagina">
+<img src="imagesverslag/breakdownschets2.png" width="500px" alt="breakdown van de hele pagina">
 
 </details>
 
